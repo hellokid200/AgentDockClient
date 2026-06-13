@@ -1,0 +1,14 @@
+{
+  "name": "adclient",
+  "version": "0.1.0",
+  "description": "AgentDockClient — remote console for terminal AI agents",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "adclient": "bin/cli.js"
+  },
+  "dependencies": {
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  }
+}
